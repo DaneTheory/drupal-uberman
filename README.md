@@ -1,4 +1,4 @@
-drupal-uberman
+Uberman-Drupal
 ==============
 
 Drupal Installation Profile

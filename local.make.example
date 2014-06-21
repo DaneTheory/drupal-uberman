@@ -1,0 +1,87 @@
+; uberman_drupal make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ Libraries +++++
+
+; chosen
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][type] = "library"
+libraries[chosen][destination] = "libraries"
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "git@github.com:DaneTheory/uberman-drupal-chosen.git" ;
+
+; json2
+libraries[json2][directory_name] = "json2"
+libraries[json2][type] = "library"
+libraries[json2][destination] = "libraries"
+libraries[json2][download][type] = "get"
+libraries[json2][download][url] = "git@github.com:DaneTheory/uberman-drupal-json2.git" ;
+
+; mediaelement
+libraries[mediaelement][directory_name] = "mediaelement"
+libraries[mediaelement][type] = "library"
+libraries[mediaelement][destination] = "libraries"
+libraries[mediaelement][download][type] = "get"
+libraries[mediaelement][download][url] = "git@github.com:DaneTheory/uberman-drupal-mediaelement.git" ;
+
+; cycle
+libraries[cycle][directory_name] = "cycle"
+libraries[cycle][type] = "library"
+libraries[cycle][destination] = "libraries"
+libraries[cycle][download][type] = "get"
+libraries[cycle][download][url] = "git@github.com:DaneTheory/uberman-drupal-cycle.git" ;
+
+; modernizr
+libraries[modernizr][directory_name] = "modernizr"
+libraries[modernizr][type] = "library"
+libraries[modernizr][destination] = "libraries"
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "git@github.com:DaneTheory/uberman-drupal-modernizr.git" ;
+
+; video-js
+libraries[video-js][directory_name] = "video-js"
+libraries[video-js][type] = "library"
+libraries[video-js][destination] = "libraries"
+libraries[video-js][download][type] = "get"
+libraries[video-js][download][url] = "git@github.com:DaneTheory/uberman-drupal-video-js.git" ;
+
+; spyc
+libraries[spyc][directory_name] = "spyc"
+libraries[spyc][type] = "library"
+libraries[spyc][destination] = "libraries"
+libraries[spyc][download][type] = "get"
+libraries[spyc][download][url] = "git@github.com:DaneTheory/uberman-drupal-spyc.git" ;
+
+; codemirror
+libraries[codemirror][directory_name] = "codemirror"
+libraries[codemirror][type] = "library"
+libraries[codemirror][destination] = "libraries"
+libraries[codemirror][download][type] = "get"
+libraries[codemirror][download][url] = "git@github.com:DaneTheory/uberman-drupal-codemirror.git" ;
+
+; underscore
+libraries[underscore][directory_name] = "underscore"
+libraries[underscore][type] = "library"
+libraries[underscore][destination] = "libraries"
+libraries[underscore][download][type] = "get"
+libraries[underscore][download][url] = "git@github.com:DaneTheory/uberman-drupal-underscore.git" ;
+
+; jcarousel
+libraries[jcarousel][directory_name] = "jcarousel"
+libraries[jcarousel][type] = "library"
+libraries[jcarousel][destination] = "libraries"
+libraries[jcarousel][download][type] = "get"
+libraries[jcarousel][download][url] = "git@github.com:DaneTheory/uberman-drupal-jcarousel.git" ;
+
+; backbone
+libraries[backbone][directory_name] = "backbone"
+libraries[backbone][type] = "library"
+libraries[backbone][destination] = "libraries"
+libraries[backbone][download][type] = "get"
+libraries[backbone][download][url] = "git@github.com:DaneTheory/uberman-drupal-backbone.git" ;
+

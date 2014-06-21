@@ -1,11 +1,11 @@
-; branden_dane make file for d.o. usage
+; uberman_drupal make file for d.o. usage
+; edit as needed again make sure to make the changes where noted
+; add modules and libraries here if youd like just make sure to fllow the same syntax as you see
+; modules and libraries can be called from both drupal and github
 core = "7.x"
 api = "2"
 
 ; +++++ Modules +++++
-
-projects[acquia_connector][version] = "2.14"
-projects[acquia_connector][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
@@ -39,9 +39,6 @@ projects[date][subdir] = "contrib"
 
 projects[devel][version] = "1.5"
 projects[devel][subdir] = "contrib"
-
-projects[profiler_builder][version] = "1.1"
-projects[profiler_builder][subdir] = "contrib"
 
 projects[fb_likebox][version] = "1.9"
 projects[fb_likebox][subdir] = "contrib"

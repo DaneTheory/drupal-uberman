@@ -3,10 +3,13 @@
  * Implements hook_form_FORM_ID_alter().
  *
  * Allows the profile to alter the site configuration form.
+ *
+ * IMPORTANT!: MAKE SURE TO EDIT THE FIELDS THAT BEGIN WITH 'ADD'.
+ *
  */
 if (!function_exists("system_form_install_configure_form_alter")) {
   function system_form_install_configure_form_alter(&$form, $form_state) {
-    $form['site_information']['site_name']['#default_value'] = 'Branden Dane';
+    $form['site_information']['site_name']['#default_value'] = 'ADD YOUR PREFERRED DEFAULT USER/ADMIN NAME HERE!!!!!! Ex: Clark Kent';
   }
 }
 
@@ -18,7 +21,7 @@ if (!function_exists("system_form_install_configure_form_alter")) {
 if (!function_exists("system_form_install_select_profile_form_alter")) {
   function system_form_install_select_profile_form_alter(&$form, $form_state) {
     foreach ($form['profile'] as $key => $element) {
-      $form['profile'][$key]['#value'] = 'branden_dane';
+      $form['profile'][$key]['#value'] = 'uberman_drupal';
     }
   }
 }
